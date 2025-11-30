@@ -3,9 +3,10 @@ import { Menu, X, Github, Twitter, Linkedin, ArrowRight } from 'lucide-react';
 import { NavItem } from '../types';
 
 const navItems: NavItem[] = [
+  { label: 'Služby', href: '#services' },
   { label: 'Portfolio', href: '#portfolio' },
+  { label: 'Proces', href: '#process' },
   { label: 'O nás', href: '#about' },
-  { label: 'Kontakt', href: '#contact' },
 ];
 
 const Navbar: React.FC = () => {
@@ -116,7 +117,7 @@ const Navbar: React.FC = () => {
               style={{ transitionDelay: '150ms' }}
             >
                <div className="flex items-baseline gap-4">
-                  <span className="font-mono text-sm text-lumina-accent/50">04</span>
+                  <span className="font-mono text-sm text-lumina-accent/50">05</span>
                   <span className="text-4xl sm:text-5xl font-bold text-white group-hover:text-lumina-accent transition-colors tracking-tight">
                     Spolupráce
                   </span>

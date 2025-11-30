@@ -4,6 +4,9 @@ import Hero from './components/Hero';
 import Portfolio from './components/Portfolio';
 import Team from './components/Team';
 import Contact from './components/Contact';
+import Services from './components/Services';
+import Process from './components/Process';
+import Testimonials from './components/Testimonials';
 
 const App: React.FC = () => {
   return (
@@ -33,8 +36,11 @@ const App: React.FC = () => {
       <div className="relative z-10">
         <Navbar />
         <Hero />
+        <Services />
         <Portfolio />
+        <Process />
         <Team />
+        <Testimonials />
         <Contact />
       </div>
     </main>
